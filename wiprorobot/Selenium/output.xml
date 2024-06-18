@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-27T12:52:40.426493" rpa="false" schemaversion="5">
+<suite id="s1" name="Dropdown" source="C:\Users\Administrator\PycharmProjects\wiprorobot\Selenium\dropdown.robot">
+<test id="s1-t1" name="RadioButton" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-05-27T12:52:40.848349" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/dropdown'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-05-27T12:52:40.848349" elapsed="5.819892"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-05-27T12:52:46.668241" elapsed="0.033200"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-27T12:52:50.703353" level="INFO">Slept 4 seconds.</msg>
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-27T12:52:46.702440" elapsed="4.000913"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id:dropdown</arg>
+<arg>timeout=8</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-05-27T12:52:50.704190" elapsed="0.039162"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-27T12:52:54.744540" level="INFO">Slept 4 seconds.</msg>
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-27T12:52:50.743352" elapsed="4.001188"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<msg time="2024-05-27T12:52:54.745221" level="INFO">Selecting options from selection list 'id:dropdown' by index 1.</msg>
+<arg>id:dropdown</arg>
+<arg>1</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" start="2024-05-27T12:52:54.745221" elapsed="0.140263"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-27T12:52:58.885864" level="INFO">Slept 4 seconds.</msg>
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-27T12:52:54.885484" elapsed="4.000380"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2024-05-27T12:52:58.885864" level="INFO">Selecting options from selection list 'id:dropdown' by value 2.</msg>
+<arg>id:dropdown</arg>
+<arg>2</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2024-05-27T12:52:58.885864" elapsed="0.098527"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-27T12:53:02.985527" level="INFO">Slept 4 seconds.</msg>
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-27T12:52:58.985321" elapsed="4.000206"/>
+</kw>
+<kw name="List Selection Should Be" owner="SeleniumLibrary">
+<msg time="2024-05-27T12:53:02.985527" level="INFO">Verifying list 'id:dropdown' has option [ [ [ | Option | 2 (2) ] ] ] selected.</msg>
+<msg time="2024-05-27T12:53:03.001203" level="INFO">Current page contains list 'id:dropdown'.</msg>
+<msg time="2024-05-27T12:53:03.176476" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-8.png"&gt;&lt;img src="selenium-screenshot-8.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-05-27T12:53:03.176476" level="FAIL">List 'id:dropdown' should have had selection [ [ [ | Option | 2 (2) ] ] ] but selection was [ Option 2 (2) ].</msg>
+<arg>id:dropdown</arg>
+<arg>[ [ | Option | 2 (2) ] ]</arg>
+<doc>Verifies selection list ``locator`` has ``expected`` options selected.</doc>
+<status status="FAIL" start="2024-05-27T12:53:02.985527" elapsed="0.190949">List 'id:dropdown' should have had selection [ [ [ | Option | 2 (2) ] ] ] but selection was [ Option 2 (2) ].</status>
+</kw>
+<status status="FAIL" start="2024-05-27T12:52:40.848349" elapsed="22.328127">List 'id:dropdown' should have had selection [ [ [ | Option | 2 (2) ] ] ] but selection was [ Option 2 (2) ].</status>
+</test>
+<status status="FAIL" start="2024-05-27T12:52:40.426493" elapsed="22.749983"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Dropdown">Dropdown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
