@@ -1,0 +1,54 @@
+1716805293075	geckodriver	INFO	Listening on 127.0.0.1:62947
+1716805293604	mozrunner::runner	INFO	Running command: "C:\\Users\\Administrator\\.cache\\selenium\\firefox\\win64\\126.0\\firefox.exe" "--marionette" "--remote-de ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilelibDY1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1716805294125	Marionette	INFO	Marionette enabled
+1716805294302	Marionette	INFO	Listening on port 62953
+WebDriver BiDi listening on ws://127.0.0.1:62948
+Read port: 62953
+1716805294656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62948/devtools/browser/e28200d5-54ec-499f-94fe-2051e250053a
+1716805324237	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://newassets.hcaptcha.com/c/de80b1b/hsw.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1677: Error: permitUnload is already running for this tab.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=GT-55B9DGR&l=dataLayer&cx=c, line 238: Script terminated by timeout at:
+z@https://www.googletagmanager.com/gtag/js?id=GT-55B9DGR&l=dataLayer&cx=c:238:158
+gA@https://www.googletagmanager.com/gtag/js?id=GT-55B9DGR&l=dataLayer&cx=c:588:134
+hA/<@https://www.googletagmanager.com/gtag/js?id=GT-55B9DGR&l=dataLayer&cx=c:588:111
+
+1716809466035	Marionette	INFO	Stopped listening on port 62953
+Dynamically enable window occlusion 1
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1740: uncaught exception: undefined

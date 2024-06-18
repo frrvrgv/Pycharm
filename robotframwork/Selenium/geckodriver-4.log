@@ -1,0 +1,24 @@
+1716805141864	geckodriver	INFO	Listening on 127.0.0.1:62786
+1716805142389	mozrunner::runner	INFO	Running command: "C:\\Users\\Administrator\\.cache\\selenium\\firefox\\win64\\126.0\\firefox.exe" "--marionette" "--remote-de ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile6IWe1c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1716805142912	Marionette	INFO	Marionette enabled
+1716805143080	Marionette	INFO	Listening on port 62792
+WebDriver BiDi listening on ws://127.0.0.1:62787
+Read port: 62792
+1716805143370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62787/devtools/browser/ae38df4d-af07-4db0-812f-8d1b26903f3e
+JavaScript error: https://www.manning.com/books/jquery-ui-in-action line 689 > injectedScript, line 2: ReferenceError: jQuery is not defined
+JavaScript warning: https://www.shopperapproved.com/product/28938/9781617291937.js, line 627: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-oKBbp_y-oWlBDsnAgiPs8YPbS-4kUOFQmLtxByx1YU.js line 2 > eval line 7062 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.manning.com/cart line 689 > injectedScript, line 3: TypeError: google_tag_manager.rm[7317494](...) is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-oKBbp_y-oWlBDsnAgiPs8YPbS-4kUOFQmLtxByx1YU.js line 2 > eval line 12 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1716805173014	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-NMEV8ZBBN1, line 181: Script terminated by timeout at:
+z@https://www.googletagmanager.com/gtag/js?id=G-NMEV8ZBBN1:181:158
+gA@https://www.googletagmanager.com/gtag/js?id=G-NMEV8ZBBN1:535:134
+hA/<@https://www.googletagmanager.com/gtag/js?id=G-NMEV8ZBBN1:535:111
+
+1716805223208	Marionette	INFO	Stopped listening on port 62792
+Dynamically enable window occlusion 1

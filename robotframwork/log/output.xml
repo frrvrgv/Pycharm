@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-28T16:56:25.182831" rpa="false" schemaversion="5">
+<suite id="s1" name="Get" source="C:\Users\Administrator\PycharmProjects\robotframwork\wipro\resources\get.robot">
+<test id="s1-t1" name="Validate Status Code" line="17">
+<kw name="Create">
+<msg time="2024-05-28T16:56:25.342612" level="FAIL">No keyword with name 'Create' found. Did you mean:
+    BuiltIn.Create List</msg>
+<arg>Session</arg>
+<arg>mysession</arg>
+<arg>${base_url}</arg>
+<status status="FAIL" start="2024-05-28T16:56:25.342612" elapsed="0.000000">No keyword with name 'Create' found. Did you mean:
+    BuiltIn.Create List</status>
+</kw>
+<kw name="GET">
+<var>${response}</var>
+<arg>On</arg>
+<arg>Session</arg>
+<arg>mysession</arg>
+<arg>/utilities/weather/city/${city}</arg>
+<status status="NOT RUN" start="2024-05-28T16:56:25.358252" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>${response.status_code}</arg>
+<arg>200</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="NOT RUN" start="2024-05-28T16:56:25.358252" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-05-28T16:56:25.342612" elapsed="0.015640">No keyword with name 'Create' found. Did you mean:
+    BuiltIn.Create List</status>
+</test>
+<status status="FAIL" start="2024-05-28T16:56:25.235625" elapsed="0.122627"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Get">Get</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-05-28T16:56:25.311366" level="ERROR">Error in file 'C:\Users\Administrator\PycharmProjects\robotframwork\wipro\resources\get.robot' on line 2: Importing library 'RequestsLibrary' failed: ModuleNotFoundError: No module named 'RequestsLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Administrator\AppData\Roaming\JetBrains\PyCharmCE2024.1\plugins\robotframework-intellij\lib\robotframework_debug_adapter
+  C:\Users\Administrator\PycharmProjects\robotframwork
+  C:\Users\Administrator\AppData\Roaming\JetBrains\PyCharmCE2024.1\plugins\robotframework-intellij\lib
+  C:\Users\Administrator\AppData\Roaming\JetBrains\PyCharmCE2024.1\plugins\robotframework-intellij\lib\robotframework_ls\vendored
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python312
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+<msg time="2024-05-28T16:56:25.342612" level="ERROR">Error in file 'C:\Users\Administrator\PycharmProjects\robotframwork\wipro\resources\get.robot' on line 4: Importing library 'JSONLibrary' failed: ModuleNotFoundError: No module named 'JSONLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Administrator\AppData\Roaming\JetBrains\PyCharmCE2024.1\plugins\robotframework-intellij\lib\robotframework_debug_adapter
+  C:\Users\Administrator\PycharmProjects\robotframwork
+  C:\Users\Administrator\AppData\Roaming\JetBrains\PyCharmCE2024.1\plugins\robotframework-intellij\lib
+  C:\Users\Administrator\AppData\Roaming\JetBrains\PyCharmCE2024.1\plugins\robotframework-intellij\lib\robotframework_ls\vendored
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python312
+  C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+</errors>
+</robot>
